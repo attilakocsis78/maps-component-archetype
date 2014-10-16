@@ -4,7 +4,7 @@ maps-component-archetype
 Scaffolds the 4 bundles of Maps Components  : persistence , persistence service, rest, webcontent
 
 1.    Create artifact and upload to local repo : mvn clean install
-2.    Create Component from archetype: 
+2.    Create a directory (anywhere) and create Component from archetype: 
             mvn archetype:generate 
                   -DarchetypeGroupId=com.avon.archetype 
                   -DarchetypeVersion=1.0 
